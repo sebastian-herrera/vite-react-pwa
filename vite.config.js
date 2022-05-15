@@ -12,7 +12,8 @@ export default defineConfig({
         name: 'Name of your app',
         short_name: 'Short name of your app',
         description: 'Description of your app',
-        theme_color: '#000',
+        theme_color: '#fff',
+        background_color: '#000',
         icons: [
           {
             src: 'pwa-192x192.png',
@@ -34,7 +35,9 @@ export default defineConfig({
       },
       devOptions: {
         enabled: true,
-        /* other options */
+      },
+      workbox: {
+        globPatterns: ['**/*.{js,css,html}', '**/*.{svg,png,jpg,gif}'],
       },
     }),
   ],
