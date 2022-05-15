@@ -33,12 +33,13 @@ export default defineConfig({
           },
         ],
       },
-      devOptions: {
-        enabled: true,
-      },
-      workbox: {
-        globPatterns: ['**/*.{js,css,html}', '**/*.{svg,png,jpg,gif}'],
-      },
+      // registerType: 'autoUpdate',
+      // devOptions: {
+      //   enabled: true,
+      // },
+      // workbox: {
+      //   globPatterns: ['**/*.{js,css,html}', '**/*.{svg,png,jpg,gif}'],
+      // },
     }),
   ],
 });

@@ -1,0 +1,32 @@
+.ReloadPrompt-container {
+  width: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.ReloadPrompt-toast {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  margin: 16px;
+  padding: 12px;
+  border: 1px solid #8885;
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 3px 4px 5px 0 #8885;
+  text-align: left;
+}
+
+.ReloadPrompt-toast-message {
+  margin-bottom: 8px;
+}
+
+.ReloadPrompt-toast-button {
+  margin-right: 5px;
+  padding: 3px 10px;
+  border: 1px solid #8885;
+  border-radius: 2px;
+  outline: none;
+}
